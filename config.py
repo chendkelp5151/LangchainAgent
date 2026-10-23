@@ -17,6 +17,6 @@ def validate_config():
         print("Please configure your API key in a .env file:")
         print("1. Copy .env.example to .env")
         print("2. Get a free API key from https://build.nvidia.com/")
-        print("3. Set NVIDIA_API_KEY=nvapi-... in .env\n")
+        print("3. Set NVIDIA_API_KEY=... in .env\n")
         return False
     return True
